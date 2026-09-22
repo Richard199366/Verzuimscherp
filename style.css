@@ -85,7 +85,7 @@ textarea {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  color: #fff;
+  color: #ffffff;
   font-weight: 800;
   letter-spacing: 0.01em;
   line-height: 1;
@@ -101,6 +101,7 @@ textarea {
 .brand-text {
   font-size: 1.06rem;
   white-space: nowrap;
+  color: #ffffff;
 }
 
 .main-nav {
