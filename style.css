@@ -299,13 +299,8 @@ textarea {
 .comparison-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.7rem;
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  font-weight: 700;
+  justify-content: flex-end;
+  min-height: 1.5rem;
 }
 
 .tag {
@@ -313,9 +308,14 @@ textarea {
   align-items: center;
   justify-content: center;
   border-radius: 999px;
-  padding: 0.35rem 0.6rem;
+  padding: 0.22rem 0.5rem;
   background: rgba(242, 153, 74, 0.12);
   color: #ffd4a8;
+  font-size: 0.64rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .cost-pain {
