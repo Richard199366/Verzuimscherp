@@ -465,6 +465,37 @@ textarea {
   background: var(--accent);
 }
 
+.panel-block li a {
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.panel-block li a:hover,
+.panel-block li a:focus-visible {
+  color: var(--accent-dark);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 0.18em;
+}
+
+.panel-link {
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.panel-link a {
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgba(242, 153, 74, 0.4);
+  text-underline-offset: 0.18em;
+}
+
+.panel-link a:hover,
+.panel-link a:focus-visible {
+  text-decoration-color: var(--accent-dark);
+}
+
 .services {
   background: var(--surface-alt);
 }
