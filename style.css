@@ -465,18 +465,6 @@ textarea {
   background: var(--accent);
 }
 
-.panel-block li a {
-  transition: color 0.2s ease, text-decoration-color 0.2s ease;
-}
-
-.panel-block li a:hover,
-.panel-block li a:focus-visible {
-  color: var(--accent-dark);
-  text-decoration: underline;
-  text-decoration-color: var(--accent);
-  text-underline-offset: 0.18em;
-}
-
 .panel-link {
   margin: 1.5rem 0 0;
   color: var(--muted);
