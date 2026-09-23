@@ -571,6 +571,19 @@ textarea {
   color: var(--text-soft);
 }
 
+.entry-copy {
+  display: grid;
+  gap: 0.25rem;
+  flex: 1 1 280px;
+}
+
+.entry-copy small {
+  max-width: 620px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
 .entry-label {
   color: var(--accent-dark);
   font-size: 0.75rem;
@@ -582,6 +595,17 @@ textarea {
 .entry-offer strong {
   font-size: 1.2rem;
   color: var(--text);
+}
+
+.entry-price {
+  color: var(--text);
+  font-size: 1.35rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.entry-offer-button {
+  flex: 0 0 auto;
 }
 
 .why-us {
