@@ -709,6 +709,10 @@ textarea {
   color: var(--text-soft);
 }
 
+.contact-copy .eyebrow {
+  color: #F2994A;
+}
+
 .contact-details {
   display: grid;
   gap: 1rem;
