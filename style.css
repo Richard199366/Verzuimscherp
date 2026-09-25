@@ -216,15 +216,11 @@ textarea {
 
 .eyebrow {
   margin: 0 0 1rem;
-  color: #ffb772;
+  color: #f2994a;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.74rem;
   font-weight: 700;
-}
-
-.eyebrow-dark {
-  color: var(--accent-dark);
 }
 
 .hero-copy h1 {
