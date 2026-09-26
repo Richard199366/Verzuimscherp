@@ -824,11 +824,11 @@ textarea {
 }
 
 .about-photo {
-  width: min(100%, 320px);
-  aspect-ratio: 1;
+  width: min(100%, 340px);
+  aspect-ratio: 3 / 4;
   object-fit: cover;
   border: 6px solid var(--surface);
-  border-radius: 50%;
+  border-radius: 32px;
   box-shadow: 0 16px 30px rgba(18, 26, 42, 0.16);
 }
 
