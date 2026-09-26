@@ -819,10 +819,12 @@ textarea {
   align-items: center;
   gap: 1.5rem;
   justify-content: center;
+  width: min(100%, 320px);
+  justify-self: center;
 }
 
 .about-photo {
-  width: min(100%, 220px);
+  width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
   border: 6px solid var(--surface);
@@ -832,7 +834,7 @@ textarea {
 
 .about-quote {
   position: relative;
-  width: min(100%, 430px);
+  width: 100%;
   padding: 2rem 1.6rem 1.5rem;
   border-radius: var(--radius-lg);
   background: linear-gradient(180deg, rgba(26, 35, 51, 0.96), rgba(18, 26, 42, 1));
@@ -955,6 +957,11 @@ textarea {
 }
 
 @media (min-width: 700px) {
+  .about-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 320px);
+    gap: 3.5rem;
+  }
+
   .pricing-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
