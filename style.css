@@ -909,12 +909,6 @@ textarea {
   gap: 2.5rem;
 }
 
-.experience-visual {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .timeline {
   display: grid;
   gap: 1.1rem;
@@ -978,22 +972,6 @@ textarea {
   .about-grid {
     grid-template-columns: minmax(0, 1fr) minmax(280px, 320px);
     gap: 3.5rem;
-  }
-
-  .timeline-layout {
-    grid-template-columns: minmax(0, 1.85fr) minmax(240px, 1fr);
-    gap: 3.5rem;
-    align-items: center;
-  }
-
-  .timeline-column {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .experience-visual {
-    grid-column: 2;
-    grid-row: 1;
   }
 
   .pricing-grid {
